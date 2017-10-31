@@ -1,9 +1,9 @@
 <html>
 <head>
     <tittle>@yield('tittle')| My Blog</tittle>
-    <head>
+</head>
         <body>
-@include('layouts.partials.navigation')
+        @include('layouts.partials.navigation')
 <div class="container">
     @yield('content')
 </div>
